@@ -133,7 +133,7 @@ public class GithubClient {
         var builder = HttpRequest.newBuilder()
             .header("Accept", "application/json")
             .header("X-GitHub-Api-Version", "2026-03-10");
-        if (this.githubApiToken != null)
+        if (this.githubApiToken != null && !this.githubApiToken.isBlank())
             builder = builder.header(
                 "Authorization",
                 "Bearer " + this.githubApiToken
