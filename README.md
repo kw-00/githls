@@ -5,7 +5,11 @@ Aktualnie udostępniona jest jeden endpoint, który udostępnia informacje na te
 repozytoriów danego użytkownika, zgodnie z formatem opisanym niżej.
 
 Format zapytań:
+
 `<adres serwera>/<nazwa użytkownika na githubie>`
+
+W przypadku lokalnego uruchomienia aplikacji:
+`http://localhost:8080/<nazwa użytkownika>`
 
 Format odpowiedzi:
 ```json
@@ -31,11 +35,11 @@ Należy otworzyć terminal z głównego katalogu projektu.
 
 Następnie, należy użyć poniższej komendy:
 
-```./gradlew build```
+`./gradlew build`
 
 Następnie, aby uruchomić aplikację lokalnie, można użyć następującej komendy:
 
-```./gradlew bootRun```
+`./gradlew bootRun`
 
 ## Krótko o implementacji
 Aplikacja udostępnia informacje na temat repozytoriów, do których posiada dostęp.
