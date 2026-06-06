@@ -42,6 +42,17 @@ Następnie, aby uruchomić aplikację lokalnie, można użyć następującej kom
 
 `./gradlew bootRun`
 
+## Nawigacja
+[Implementatcja](./src/main/java/io/github/kw00/githls)
+[Testy](./src/test/java/io/github/kw00/githls)
+[Konfiguracja](./src/main/resources/application.yaml)
+
+W konfiguracji można ustawić własny token GitHuba, by przy testowaniu aplikacji nie przekroczyć
+limitu zapytań:
+```yaml
+github:
+  api-token: null # Można zastąpić własnym tokenem
+```
 ## Krótko o implementacji
 Aplikacja udostępnia informacje na temat repozytoriów, do których posiada dostęp.
 
