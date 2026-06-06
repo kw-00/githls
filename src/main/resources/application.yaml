@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: githls
+  threads:
+    virtual:
+      enabled: true
+logging:
+  level:
+    root: INFO
+    io.github.kw00.githls: DEBUG
+    org.springframework: WARN
+github:
+  # api-token: "your_github_token_for_higher_rate_limits"
+  api-base: "https://api.github.com"
