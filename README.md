@@ -30,10 +30,12 @@ Wymagana jest Java 25.
 Należy otworzyć terminal z głównego katalogu projektu.
 
 Następnie, należy użyć poniższej komendy:
-`./gradlew build`
+
+```./gradlew build```
 
 Następnie, aby uruchomić aplikację lokalnie, można użyć następującej komendy:
-`./gradlew bootRun`
+
+```./gradlew bootRun```
 
 ## Krótko o implementacji
 Aplikacja udostępnia informacje na temat repozytoriów, do których posiada dostęp.
