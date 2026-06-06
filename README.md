@@ -9,6 +9,7 @@ Format zapytań:
 `<adres serwera>/<nazwa użytkownika na githubie>`
 
 W przypadku lokalnego uruchomienia aplikacji:
+
 `http://localhost:8080/<nazwa użytkownika>`
 
 Format odpowiedzi:
